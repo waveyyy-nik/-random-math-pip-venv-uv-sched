@@ -1,6 +1,4 @@
-"""Пакет : плоские и простые фигуры."""
-from .flat import circle_area, triangle_area
-from .solid import sphere_volume, cube_volume
+from .stats import char_stats, word_count
 
-__all__ = ["circle_area", "triangle_area", "sphere_volume", "cube_volume"]
-__version__ = "0.2.0"
+__all__ = ["char_stats", "word_count"]
+__version__ = "0.1.0"
